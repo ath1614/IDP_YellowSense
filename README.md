@@ -165,3 +165,4 @@ curl http://llm-vm:8001/health
 - OCR Service: `journalctl -u ocr-service`
 - LLM Service: `journalctl -u llm-service`
 - Application: `/home/tech/*/app.log`
+
