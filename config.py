@@ -34,3 +34,4 @@ class AppConfig:
 
 
 config = AppConfig()
+
