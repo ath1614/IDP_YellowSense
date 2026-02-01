@@ -39,3 +39,4 @@ class ResultCache:
     def size(self) -> int:
         return len(self._store)
 
+
