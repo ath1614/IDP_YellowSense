@@ -4,7 +4,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
 import tempfile
 import asyncio
-from .ocr_processor import OCRProcessor
+from .ocr_processor_v2 import OCRProcessor
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
