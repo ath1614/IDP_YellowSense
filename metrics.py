@@ -73,3 +73,4 @@ class timer:
         success = exc_type is None and (not self.success_flag or self.success_flag[0])
         metrics.record(self.operation, success, elapsed)
 
+
