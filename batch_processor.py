@@ -41,3 +41,4 @@ class BatchProcessor:
     async def process_files(self, files: List[str]) -> List[Dict[str, Any]]:
         return list(await asyncio.gather(*[self._process_one(Path(f)) for f in files]))
 
+
