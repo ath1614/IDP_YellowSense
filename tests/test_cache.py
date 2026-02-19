@@ -40,3 +40,4 @@ def test_different_operations_different_keys():
     cache.set("same_text", "apar", {"officer_name": "John"})
     assert cache.get("same_text", "classify") != cache.get("same_text", "apar")
 
+
