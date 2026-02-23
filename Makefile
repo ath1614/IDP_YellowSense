@@ -34,3 +34,4 @@ deploy-llm:
 	scp -r llm/ infra/llm_vm_setup.sh tech@llm-vm:~/
 	ssh tech@llm-vm "cd ~/llm && pip install -r requirements.txt && sudo systemctl restart llm-service"
 
+
