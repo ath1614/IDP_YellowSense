@@ -40,3 +40,4 @@ class ResultCache:
         return len(self._store)
 
 
+
