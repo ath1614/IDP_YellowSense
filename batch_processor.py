@@ -42,3 +42,4 @@ class BatchProcessor:
         return list(await asyncio.gather(*[self._process_one(Path(f)) for f in files]))
 
 
+
