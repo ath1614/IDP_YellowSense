@@ -49,3 +49,4 @@ def test_metrics_endpoint():
     assert response.status_code == 200
     assert isinstance(response.json(), dict)
 
+
