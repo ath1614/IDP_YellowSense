@@ -81,3 +81,4 @@ sudo systemctl enable ocr-service
 
 echo "OCR VM setup complete. Reboot required for GPU drivers."
 
+
