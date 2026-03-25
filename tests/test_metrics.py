@@ -48,3 +48,4 @@ def test_avg_latency():
     assert m.get("op")["avg_latency_ms"] == 150.0
 
 
+
