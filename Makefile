@@ -35,3 +35,4 @@ deploy-llm:
 	ssh tech@llm-vm "cd ~/llm && pip install -r requirements.txt && sudo systemctl restart llm-service"
 
 
+
